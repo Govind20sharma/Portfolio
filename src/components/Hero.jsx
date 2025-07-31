@@ -8,7 +8,9 @@ const Hero = () => {
       <div className="row align-items-center">
         {/* Text Section */}
         <div className="col-md-6 mb-4 mb-md-0 text-light">
-        <p className="text-danger text-uppercase mb-2 fw-bold fade-in underline-animated hover-pop">MERN Stack Developer</p>
+        <p className="text-danger text-uppercase mb-2 fw-bold fade-in hover-pop underline-animated">
+  <span className="underline-target">MERN Stack Developer</span>
+</p>
           <h1 className="display-5 fw-bold mb-3 name-flow">
             Hi, I'm <span className="text-primary">Govind</span> Sharma
           </h1>
