@@ -36,19 +36,6 @@ body {
   margin-bottom: 2rem;
 }
 
-/* Card style for about/projects */
-.card-section {
-  background-color: #1e293b;
-  border-radius: 0.75rem;
-  padding: 1.5rem;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
-  transition: all 0.3s;
-}
-.card-section:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.08);
-}
-
 /* Tech badge styling */
 .badge-tech {
   background-color: #3b82f6;
@@ -102,18 +89,6 @@ body {
   margin-bottom: 2rem;
 }
 
-/* Card style for about/projects */
-.card-section {
-  background-color: #1e293b;
-  border-radius: 0.75rem;
-  padding: 1.5rem;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
-  transition: all 0.3s;
-}
-.card-section:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.08);
-}
 
 /* Tech badge styling */
 .badge-tech {
@@ -192,25 +167,25 @@ section {
 
 
 /* Underline animation for MERN */
-.underline-animated {
+.underline-target {
   position: relative;
   display: inline-block;
 }
 
-.underline-animated::after {
+.underline-target::after {
   content: "";
   position: absolute;
-  bottom: -2px;
+  bottom: 0;
   left: 0;
   height: 3px;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #eff3fa;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.4s ease;
 }
 
-.underline-animated:hover::after {
+.underline-animated:hover .underline-target::after {
   transform: scaleX(1);
 }
 
@@ -221,4 +196,24 @@ section {
 
 .hover-pop:hover {
   transform: scale(1.1) !important;
+}
+
+
+/* About section styling */
+.about-section {
+  background-color: #0d1117;
+  color: #f1f1f1;
+  padding: 4rem 2rem;
+  border-radius: 8px;
+}
+.card-section {
+  background-color: #161b22;
+  border-left: 4px solid #dc3545;
+  box-shadow: 0 0 10px rgba(220, 53, 69, 0.2);
+  padding: 2rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.card-section:hover {
+  transform: translateY(-15px);
 }
