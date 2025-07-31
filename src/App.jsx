@@ -10,7 +10,6 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <main>
         <section id="home">
           <Hero />
         </section>
@@ -23,7 +22,7 @@ const App = () => {
         <section id="contact">
           <Contact />
         </section>
-      </main>
+      
     </>
   );
 };
