@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadow">
       <div className="container">
-        <a className="navbar-brand fw-bold" href="#home">Govind</a>
+        <a className="navbar-brand fw-bold" href="#home">My Kndali </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -23,6 +23,8 @@ const Navbar = () => {
             {[
               { to: "home", label: "Home" },
               { to: "about", label: "About" },
+              { to: "education", label: "Education" },
+              { to: "experience", label: "Experience" },
               { to: "projects", label: "Projects" },
               { to: "contact", label: "Contact" },
             ].map((item) => (
