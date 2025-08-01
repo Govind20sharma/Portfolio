@@ -4,7 +4,7 @@ import "../index.css";
 
 const Hero = () => {
   return (
-    <div className="container py-5 hero-section" id="home">
+    <div className="container py-5 about-section" id="home">
       <div className="row align-items-center">
         {/* Text Section */}
         <div className="col-md-6 mb-4 mb-md-0 text-light">
